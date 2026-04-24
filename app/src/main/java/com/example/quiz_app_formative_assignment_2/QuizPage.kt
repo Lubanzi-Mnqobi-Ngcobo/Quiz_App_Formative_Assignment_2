@@ -25,7 +25,9 @@ class QuizPage : AppCompatActivity() {
         val btnNext = findViewById<Button>(R.id.btnNext)
         val tvStatement = findViewById<TextView>(R.id.tvStatement)
 
-
+        btnHack.setOnClickListener {
+            if
+        }
 
     }
 }
