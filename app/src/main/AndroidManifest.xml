@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz_App_Formative_Assignment_2">
         <activity
+            android:name=".ReviewPage"
+            android:exported="false" />
+        <activity
+            android:name=".ScorePage"
+            android:exported="false"
+            android:theme="@style/Theme.Quiz_App_Formative_Assignment_2" />
+        <activity
             android:name=".QuizPage"
             android:exported="false" />
         <activity

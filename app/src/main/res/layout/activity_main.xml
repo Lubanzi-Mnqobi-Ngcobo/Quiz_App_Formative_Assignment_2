@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#040101"
+    android:backgroundTint="#020101"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Quiz Test"
+        android:textColor="#FDFBFB"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,6 +42,7 @@
         android:layout_marginTop="60dp"
         android:text="Welcome to Quiz Test"
         android:textAlignment="center"
+        android:textColor="#F8F8F8"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +58,7 @@
         android:layout_marginBottom="300dp"
         android:text="You will be given a set of life hacks and a set of urban myths. Your job is to identify what is a life hack and what is a urban myth"
         android:textAlignment="center"
+        android:textColor="#FDFBFB"
         app:layout_constraintBottom_toTopOf="@+id/btnStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
